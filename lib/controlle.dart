@@ -20,7 +20,6 @@ class controller extends GetxController {
   void add(int pos, bool val, int price) {
     v1[pos] = val;
     print("hello");
-
     if (v1[pos] == true) {
       total = total + price;
     } else {
